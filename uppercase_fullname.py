@@ -4,3 +4,5 @@
 print("Fullname in all capital letters")
 
 fullname = input("Enter your name: ")
+
+print(fullname.upper())
