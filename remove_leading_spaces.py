@@ -3,4 +3,6 @@
 
 print("Fullname without spaces")
 
-fullname = input("Enter your full name (must have several space characters at the beginning: ")
+fullname = input("Enter your full name (must have several space characters at the beginning): ")
+
+print(fullname.lstrip())
