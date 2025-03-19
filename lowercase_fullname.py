@@ -4,3 +4,5 @@
 print("Fullname in all lower case letters")
 
 fullname = input("Enter your name: ")
+
+print(fullname.lower())
