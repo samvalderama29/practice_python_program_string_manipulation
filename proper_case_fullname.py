@@ -3,4 +3,6 @@
 
 print("Fullname proper casing")
 
-fullname = input("Enter your full name in incorrect casing (Ex: aNgeL: ")
+fullname = input("Enter your full name in incorrect casing (Ex: aNgeL): ")
+
+print(fullname.capitalize())
