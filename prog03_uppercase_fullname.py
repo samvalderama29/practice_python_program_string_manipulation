@@ -4,8 +4,8 @@
 # Display message to indicate the purpose of the program
 print("Fullname in all capital letters")
 
-# Prompt the user to enter a number from 0 - 1000
+# Prompt the user to enter their full name
 fullname = input("Enter your name: ")
 
-# # Convert the input name to uppercase using the upper() method and print the result
+# Convert the input name to uppercase using the upper() method and print the result
 print(fullname.upper())
