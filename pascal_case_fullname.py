@@ -5,4 +5,11 @@ print("Full name in pascal case")
 
 fullname = input("Enter your full name: ")
 
-print(fullname.title())
+method_name = fullname.title().split()
+
+pascal_name = ""
+
+for word in method_name:
+    pascal_name += word
+
+print(pascal_name)
