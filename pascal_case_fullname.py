@@ -4,3 +4,7 @@
 print("Full name in pascal case")
 
 fullname = input("Enter your full name: ")
+
+pascal_name = fullname.capitalize(), fullname.strip()
+
+print(pascal_name)
