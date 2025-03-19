@@ -4,3 +4,7 @@
 print("Full name in pascal case")
 
 fullname = input("Enter your full name: ")
+
+lowercase_name = fullname.lower()
+
+print(lowercase_name.replace(" ", "_"))
