@@ -7,5 +7,5 @@ print("Fullname in all lower case letters")
 # Prompt the user to enter their full name
 fullname = input("Enter your name: ")
 
-# Convert the input name to uppercase using the upper() method and print the result
+# Convert the input name to lowercase using the lower() method and print the result
 print(fullname.lower())
