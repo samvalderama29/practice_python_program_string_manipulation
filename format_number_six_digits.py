@@ -4,4 +4,6 @@
 
 print("Number with 6 digit beginning at 0")
 
-user_num_input = int(input("Enter a number (0 - 1000): "))
+user_num_input = input("Enter a number (0 - 1000): ")
+
+print(user_num_input.zfill(6))
