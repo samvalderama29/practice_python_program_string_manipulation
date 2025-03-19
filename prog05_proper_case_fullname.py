@@ -9,4 +9,4 @@ print("Fullname proper casing")
 fullname = input("Enter your full name in incorrect casing (Ex: aNgeL): ")
 
 # Convert the first letter to uppercase and the rest to lowercase using capitalize() method
-print(fullname.capitalize())
+print(fullname.title())
