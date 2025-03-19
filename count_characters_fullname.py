@@ -4,3 +4,5 @@
 print("No. of characters in a full name")
 
 fullname = input("Enter your full name: ")
+
+print(len(fullname))
